@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgoldenrodyellow;
+            margin: 0px;
+        }
+
+        header {
+            background-color: lightsalmon;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: bolder;
+            text-decoration: underline;
+            background-color: lightgrey;
+            padding: 3px;
+        }
+
+        nav {
+            background-color: rgb(128, 128, 128);
+            padding: 10px;
+            box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.774);
+            border-radius: 7px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            margin-right: 50px;
+            color: aliceblue;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: lightsalmon;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px 0px;
+            box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.541);
+        }
+
+        section#primeiroConteudo > article {
+            background-color: lightgray;
+            padding: 10px;
+            text-justify: auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 5px;
+        }
+
+        section#segundoConteudo > article {
+            background-color: lightgrey;
+            padding: 10px;
+            text-justify: auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        strong {
+            text-shadow: 2px 1px 3px rgba(241, 158, 4, 0.781);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Menu</a>
+            <a href="#">Menu</a>
+            <a href="#">Menu</a>
+            <a href="#">Menu</a>
+            <a href="#">Menu</a>
+            <a href="#">Menu</a>  
+        </nav>
+    </header>
+    <main>
+        <section id="primeiroConteudo">
+            <article>
+                <h2>Primeiro conteudo</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta eius excepturi quidem accusamus? Labore, facilis neque similique deserunt, temporibus possimus placeat sunt omnis sed totam deleniti, perspiciatis culpa corporis nihil.</p>
+            </article>
+        </section>
+        <section id="segundoConteudo">
+        <article>
+            <h2>Segundo conteudo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit assumenda laborum dolorem, voluptatem veniam hic magni quia molestias, architecto est id ducimus provident dolor qui voluptas illum natus possimus eius!</p>
+            <aside>Artigo escrito por Lorem</aside>
+        </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por <strong>BicalhoDev</strong></p>
+    </footer>
+</body>
+</html>

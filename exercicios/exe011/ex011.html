@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/cafezinho.ico" type="image/x-icon">
+    <title>Midias Dinamicas e imagens flexíveis</title>
+</head>
+<body>
+    <h1>Aprendendo Midias Dinamicas "picture"</h1>
+    <p>Tente abrir esse site em dispositivos diferentes</p>
+    <picture> <!--sempre criar o source na ordem-->
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flex">
+    </picture>
+    <h1>Reproduzindo Áudio "audio"</h1> <!--mpeg(MP3), ogg, wav, no final sempre "type= "audio/...-->
+    <p>Vamos aprender a reproduzir áudio</p>
+    <audio src="midia/musica-free.mp3" controls></audio>
+</body>
+</html>

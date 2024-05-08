@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de imagem flexivel</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>A baixo vemos uma imagem flexível, experimente aumentar a tela e diminuir para ter a experiência completa &#x1F92F
+    </p>
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagens/rua-p.png" sizes="imagem pequena">
+        <source media="(max-width: 1050px)" srcset="imagens/rua-m.png" sizes="imagem media">
+        <img src="imagens/rua-g.png" alt="imagens/rua-g.png" srcset="imagem flex">
+        
+    </picture>
+</body>
+</html>
