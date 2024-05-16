@@ -3,4 +3,4 @@
 
 Eestou aprendendo a criar sites e agora vou gerenciar meus repositórios !
 
-<a href="https://bicalhoodev.github.io/html-css/desafios/def010/index.html">Executar este desafio def010</a>
+<a href="https://bicalhoodev.github.io/html-css\exercicios\exe001/exe001.html">Executar este exercício exe001</a>
